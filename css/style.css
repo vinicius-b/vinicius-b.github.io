@@ -450,6 +450,7 @@ a.active {
 
 #projects {
     padding: 100px 0;
+    background-color: #f3f3f3;
 }
 
 .portfolio .categories-grid span {
@@ -633,7 +634,7 @@ a.active {
 
 #contact {
     padding: 100px 0;
-    background: #f3f3f3
+    background: #fff;
 }
 
 #contact-form input,
@@ -799,4 +800,71 @@ fieldset {
     nav li a {
         font-size: 10px;
     }
+}
+
+#colorlib-counter {
+    position: relative;
+    clear: both;
+    margin-bottom: 5em;
+}
+.colorlib-counters {
+    padding: 3em 0;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center center;
+}
+.colorlib-counters .overlay {
+    z-index: 0;
+    position: absolute;
+    bottom: 0;
+    top: 0;
+    left: 0;
+    right: 0;
+    background: #fff;
+}
+.colorlib-narrow-content {
+    padding: 0 2.5em;
+}
+.js .animate-box {
+    opacity: 0;
+}
+.fadeInUp {
+    animation-name: fadeInUp;
+}
+
+.animated {
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+}
+
+.colorlib-counters .colorlib-counter {
+    font-size: 40px;
+    display: block;
+    color: black;
+    font-family: 'Open Sans', sans-serif;
+    width: 100%;
+    font-weight: 700;
+    margin-bottom: .3em;
+}
+
+.colorlib-counters .colorlib-counter-label {
+    color: black;
+    text-transform: uppercase;
+    font-size: 14px;
+    letter-spacing: 5px;
+    margin-bottom: 2em;
+    display: block;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.colorlib-narrow-content {
+    padding: 0 2.5em;
+}
+
+
+#skills {
+    padding: 100px 0;
+    background: #fff;
 }

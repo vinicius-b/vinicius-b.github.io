@@ -34,6 +34,17 @@ $(document).ready(function () {
             }
         });
     });
+    $('.js-counter').each(function () {
+        $(this).prop('Counter',0).animate({
+            Counter: $(this).text()
+        }, {
+            duration: 5000,
+            easing: 'swing',
+            step: function (now) {
+                $(this).text(Math.ceil(now));
+            }
+        });
+    });
 
     nav.find('a').on('click', function () {
         var $el = $(this),
@@ -106,7 +117,7 @@ $(document).ready(function () {
     //animatedModal
     $("#demo01,#demo02,#demo03,#demo04,#demo05,#demo06,#demo07,#demo08,#demo09").animatedModal();
 
-    // Contact Form 	
+    // Contact Form
 
     // validate contact form
     $(function () {
